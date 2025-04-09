@@ -10,7 +10,7 @@ conexao = mysql.connector.connect(
 )
 cursor = conexao.cursor()
 
-
+#Produto que será excluído
 nome_produto = "chocolate"
 
 # Comando SQL para deletar dados
